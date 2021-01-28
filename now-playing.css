@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Averia+Serif+Libre:wght@300&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Averia+Serif+Libre:wght@300&family=Fredoka+One&family=Open+Sans&display=swap');
+
+
+#logo{
+    height: 70px;
+    width: 100px;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ticket-btn:hover {
+    color: #394867;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: white;
+}
+
+.book-btn:hover {
+    color: #394867;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: white;
+}
+
+
+.ticket-btn{
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #394867;
+    background-color: transparent;
+    border-radius: 38px;
+    border: 2px solid #394867;
+    outline: none;
+    letter-spacing: -.04em;
+    margin-right: 10px;
+}
+
+.book-btn{
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #394867;
+    background-color: transparent;
+    border-radius: 38px;
+    border: 2px solid #394867;
+    outline: none;
+    letter-spacing: -.04em;
+    margin-left: 10px;
+}
+
+/* ------------------------------------------------------- HEADER ---------------------------------------------------------*/
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.nav-list a:hover {
+    color: #e8f1f5;
+    cursor: pointer;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: white    ;
+}
+
+.menu-container a:hover {
+    color: #e8f1f5;
+    cursor: pointer;
+}
+    .nav-container{
+    background-color: #394867;
+    font-size: 18px;
+    font-family: 'Fredoka One', cursive;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#xyz{
+    font-size: 10px;
+    margin-right:100px;
+}
+
+#home{
+    margin: 0 25px 0 25px;
+}
+
+#now-playing{
+    margin: 0 25px 0 25px;
+}
+
+#food{
+    margin: 0 25px 0 25px;
+}
+
+#on-demand{
+    margin: 0 25px 0 25px;
+}
+
+
+/* ------------------------------------------------------- HEADER END ---------------------------------------------------------*/
+
+
+/* ------------------------------------------------------- HERO CONTAINER ---------------------------------------------------------*/
+
+.hero-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #f1f6f9;
+}
+
+h3{
+    margin-top: 50px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+.btn{
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------------------------- HERO CONTAINER END---------------------------------------------------------*/
+
+/* ------------------------------------------------------- NOW PLAYING CONTAINER ---------------------------------------------------------*/
+.section-2{
+  background-image: url(/images/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 2fr 0.4fr 0.4fr 0.4fr;
+    justify-self: center;
+    border-bottom: 1px solid;
+    border-color: #004a7c;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 0;
+    
+}
+
+.title > h1{
+    justify-self: start;
+    margin-top: 100px;
+    font-size: 3em;
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
+    margin-top: 100px;
+}
+
+.title a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#np{
+    justify-self: end;
+}
+
+#cooming{
+    justify-self: end;
+    
+}
+
+#demand{
+    justify-self: end;
+}
+
+.now-playing-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 50px;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-2{
+    background-color: #f1f6f9;
+}
+.now-playing-container div button{
+    margin-bottom: 30px;
+}
+
+.now-playing-container h3{
+    font-size: 25px;
+}
+
+.now-playing-container h3:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.information-container{
+   padding-top: 100px; 
+   background-color: #f1f6f9;
+   padding-bottom: 100px; 
+}
+
+.info-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 90%;
+    background-color: none;
+}
+
+.info-container-1 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    height: 506px;
+    width: 760px;
+    object-fit: cover;
+    background-color: none;
+    
+}
+
+.info-container-1 p{
+   width: 50%;
+   margin-left: 25%;
+   
+
+}
+
+.info-container-2 p{
+    width: 50%;
+    margin-left: 25%; 
+}
+
+.info-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 90%;
+}   
+
+.info-container-2 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    
+    height: 506px;
+    width: 760px;
+    object-fit: cover;
+}
+/* ------------------------------------------------------- NOW PLAYING CONTAINER END ---------------------------------------------------------*/
+
+/* ------------------------------------------------------- FOOTER---------------------------------------------------------*/
+
+.social-container{
+    
+    display: grid;
+    grid-template-columns:  1fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ' . icon2 icon1 icon3 icon4 icon5 . ';
+    
+    
+    background-color: #394867;
+    justify-self: center;
+    border-bottom: 1px solid;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.icon-1{
+    grid-area: icon1;
+}
+
+.icon-2{
+    grid-area: icon2;
+}
+.icon-3{
+    grid-area: icon3;
+}
+.icon-4{
+    grid-area: icon4;
+}
+.icon-5{
+    grid-area: icon5;
+}
+
+
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    background-color: #394867;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+    border-color: white;
+    color: white
+}
+
+.menu-container h3{
+    font-size: 20px;
+}
+
+.menu-container p{
+    font-size: 13px;
+}
+
+.copy-right-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #394867;
+    justify-self: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* ------------------------------------------------------- FOOTER END---------------------------------------------------------*/
+
+
+@media only screen and (max-width: 640px) {
+    .info-container-1 {
+      display: flex;
+      flex-direction: column;
+    }
+    .info-container-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+    .info-container-1 img {
+        width: 75%;
+      }
+      .info-container-2 img{
+        width: 90%;
+        height: 90%;
+      }
+      .section-2{
+        background-image: url(/Pictures/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+      }
+ 
+    .nav-list li{
+        display: none;
+    }
+    .nav-list{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .social-container{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .now-playing-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+

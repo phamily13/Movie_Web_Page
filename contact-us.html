@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ theatre</title>
+    <link rel="stylesheet" href="contact-us.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+             <ul class="nav-list">
+                <a href="#"><img src="images/xyz_logo.png" alt="logo" id="logo"></a>
+                <a href="#" id="xyz"><li>JOIN XYZ TODAY</li></a>
+                <a href="index.html" id="home"><li>Home</li></a>
+                <a href="now-playing.html" id="now-playing"><li>Now playing</li></a>
+                <a href="#" id="food"><li>Food & Drinks</li></a>
+                <a href="#" id="on-demand"><li>On demand</li></a>
+                <a href="#" id="contact-us"><li>Contact Us</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+         <div class="hero-container">
+            <h3>Have any questions?</h3> 
+            <h1>Contact us here below!</h1>
+            <p>Sit back and relax in our family-friendly oriented theatre. Also, we are celebrating our long-lasting 100th Anniversary opening by giving away free popcorn!</p>
+            <div class="btn">
+                <button type="button" class="ticket-btn">Get Tickets</button>
+                <button type="button" class="book-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <form class="form-container" method="POST" action="https://httpbin.org/post">
+            <div class="form-control">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+                <div class="error-fields"></div>    
+            </div>
+            <div class="form-control">
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <div class="error-fields"></div>  
+            </div>
+            <div class="form-control">  
+                <label for="email">Email Adress:</label><br>
+                <input type="text" id="email" name="email" value=""><br><br>
+                <div class="error-fields"></div>  
+            </div>   
+           
+            <div class="form-control">
+                <label for="Adress">Adress:</label><br>
+                <input type="text" id="adress" name="Adress" value=""><br><br>
+                <div class="error-fields"></div>  
+            </div>
+            
+            <div class="form-control">   
+                <label for="pc">Postal Code:</label><br>
+                <input type="text" id="pc" name="pc" value=""><br><br>
+                <div class="error-fields"></div>  
+            </div> 
+           
+            <div class="form-control">
+                <label for="city">Choose your City:</label><br>
+                <input list="cities" id="city" name="city"/><br><br>
+                <datalist id="cities">
+                        <option value="Toronto">
+                        <option value="Vancouer">
+                        <option value="Montreal">
+                        <option value="Edmonton">
+                        <option value="Calgary">
+                </datalist>
+            </div>
+      
+            <div>
+                <input type="radio" id="question" name="question" value="">
+                <label for="question">Question</label><br>
+                <input type="radio" id="comment" name="comment" value="">
+                <label for="comment">Comment</label><br>
+                <input type="radio" id="problem" name="problem" value="">
+                <label for="problem">Order Problem</label>
+                <br>  
+                <div class="order-problem hide">   
+                    <label for="problem">Order Problem:</label><br>
+                    <input type="text" id="input-order" name="input-order" value=""><br><br>
+                    <div class="error-fields"></div>  
+                </div> 
+            
+            </div>
+            <div>
+                <textarea rows="4" cols="40" name="comment" form="userform">Enter your comment...
+                </textarea>
+                <br>  
+            </div>
+            
+            <input type="hidden" id="nameID" name="Tam Pham" value="1111">
+
+            <div class="submitBtn">
+                <input type="button"  id="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+
+
+    <footer class="footer-container">
+        <div class="social-container">
+            <a href="#" class="icon-1"><img src="images/facebook.png" height="45"></a>
+            <a href="#" class="icon-2"><img src="images/twitter.png" height="45" ></a>
+            <a href="#" class="icon-3"><img src="images/snapchat.png" height="45" ></a>
+            <a href="#" class="icon-4"><img src="images/youtube.png" height="45" ></a>
+            <a href="#" class="icon-5"><img src="images/instagram.png" height="45" ></a>
+        </div>
+       
+        <div class="menu-container">
+            <div>
+                <a href="#"><h3>Our Company</h3></a>
+                <a href="#"><p>Our brands</p></a>
+                <a href="#"><p>Contact Us</p></a>
+                <a href="#"><p>Corporate Information</p></a>
+                <a href="#"><p>Investor Relations</p></a>   
+            </div>
+            <div>
+                <a href="#"><h3>Movies</h3></a>
+                <a href="#"><p>Movies</p></a>
+                <a href="#"><p>Theatres</p></a>
+                <a href="#"><p>Ratings Information</p></a>
+                <a href="#"><p>Big Dawgs at XYZ</p></a>
+            </div>
+            <div>
+                <a href="#"><h3>Programming</h3></a>
+                <a href="#"><p>XYZ Artisans Films</p></a>
+                <a href="#"><p>Asian Cinema</p></a>
+                <a href="#"><p>Indian Cinema</p></a>
+                <a href="#"><p>Film Festivials</p></a>
+            </div>
+            <div>
+                <a href="#"><h3>More</h3></a>
+                <a href="#"><p>XYZ Stubs</p></a>
+                <a href="#"><p>Careers</p></a>
+                <a href="#"><p>Offers & Promotions</p></a>
+                <a href="#"><p>Mobile App</p></a>
+            </div>
+        </div>
+
+        <div class="copy-right-container">
+            <p>© Copyright 2020 XYZ Theatres</p>
+            <a href="#"><img src="images/xyz_logo.png" alt="logo" id="logo"></a>
+            <p>A Seneca Group Company</p>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://kit.fontawesome.com/d46f504ea8.js" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
